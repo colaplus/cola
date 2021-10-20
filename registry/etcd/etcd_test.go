@@ -3,10 +3,9 @@ package etcd
 import (
 	"context"
 	"fmt"
+	"github.com/km_workspace/registry"
 	"testing"
 	"time"
-
-	"github.com/ibinarytree/koala/registry"
 )
 
 func TestRegister(t *testing.T) {
